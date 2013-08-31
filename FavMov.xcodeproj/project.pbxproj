@@ -22,23 +22,23 @@
 		2014AD2C17CFF054007EBE2E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2014AD1017CFF053007EBE2E /* CoreData.framework */; };
 		2014AD3417CFF054007EBE2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2014AD3217CFF054007EBE2E /* InfoPlist.strings */; };
 		2014AD3617CFF054007EBE2E /* FavMovTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2014AD3517CFF054007EBE2E /* FavMovTests.m */; };
-		2014AD4117CFF0F3007EBE2E /* FMAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2014AD4017CFF0F3007EBE2E /* FMAppViewController.m */; };
-		2014AD4417CFF131007EBE2E /* FMMyFavoriteMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2014AD4317CFF131007EBE2E /* FMMyFavoriteMovieViewController.m */; };
-		2014AD4717CFF181007EBE2E /* FMMyFavoriteMovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2014AD4617CFF181007EBE2E /* FMMyFavoriteMovieView.m */; };
+		203C7F1E17D1E8B4000C1F70 /* FMAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F0417D1E8B4000C1F70 /* FMAppViewController.m */; };
+		203C7F1F17D1E8B4000C1F70 /* FMFriendsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F0817D1E8B4000C1F70 /* FMFriendsView.m */; };
+		203C7F2017D1E8B4000C1F70 /* FMFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F0A17D1E8B4000C1F70 /* FMFriendsViewController.m */; };
+		203C7F2117D1E8B4000C1F70 /* FMMovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F0E17D1E8B4000C1F70 /* FMMovieCell.m */; };
+		203C7F2217D1E8B4000C1F70 /* FMMoviePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F1017D1E8B4000C1F70 /* FMMoviePickerView.m */; };
+		203C7F2317D1E8B4000C1F70 /* FMMoviePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F1217D1E8B4000C1F70 /* FMMoviePickerViewController.m */; };
+		203C7F2417D1E8B4000C1F70 /* FMMyFavoriteMovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F1517D1E8B4000C1F70 /* FMMyFavoriteMovieView.m */; };
+		203C7F2517D1E8B4000C1F70 /* FMMyFavoriteMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F1717D1E8B4000C1F70 /* FMMyFavoriteMovieViewController.m */; };
+		203C7F2617D1E8B4000C1F70 /* FMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F1A17D1E8B4000C1F70 /* FMView.m */; };
+		203C7F2717D1E8B4000C1F70 /* UIApplication+FMStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F1D17D1E8B4000C1F70 /* UIApplication+FMStatusBar.m */; };
+		203C7F2A17D1E8CD000C1F70 /* FMMovie+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F2917D1E8CD000C1F70 /* FMMovie+Factory.m */; };
 		2080F81A17D10837005432FF /* FMMovieBoxOfficeStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2080F81917D10837005432FF /* FMMovieBoxOfficeStore.m */; };
 		20AABD0F17D00375004B7A37 /* UIImage+FMImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AABD0E17D00375004B7A37 /* UIImage+FMImages.m */; };
 		20AABD1217D00674004B7A37 /* UIColor+FMColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AABD1117D00674004B7A37 /* UIColor+FMColors.m */; };
-		20AABD1517D008CD004B7A37 /* FMMoviePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AABD1417D008CD004B7A37 /* FMMoviePickerViewController.m */; };
-		20AABD1817D00F72004B7A37 /* FMMoviePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AABD1717D00F72004B7A37 /* FMMoviePickerView.m */; };
-		20AABD1B17D00F98004B7A37 /* FMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AABD1A17D00F98004B7A37 /* FMView.m */; };
-		20AABD1F17D032A4004B7A37 /* FMFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AABD1E17D032A4004B7A37 /* FMFriendsViewController.m */; };
-		20AABD2217D033B1004B7A37 /* FMFriendsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AABD2117D033B1004B7A37 /* FMFriendsView.m */; };
-		20AABD2517D034E5004B7A37 /* UIApplication+FMStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AABD2417D034E5004B7A37 /* UIApplication+FMStatusBar.m */; };
 		20BE3F4317D0FCFA00128C47 /* FMRottenTomatoesHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BE3F4217D0FCFA00128C47 /* FMRottenTomatoesHTTPClient.m */; };
 		20BE3F4617D1001C00128C47 /* FMRottenTomatoesAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BE3F4517D1001C00128C47 /* FMRottenTomatoesAPI.m */; };
-		20CB8E2317D1277900939AB4 /* FMMovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CB8E2217D1277900939AB4 /* FMMovieCell.m */; };
 		20CB8E2617D127EA00939AB4 /* FMMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CB8E2517D127EA00939AB4 /* FMMovie.m */; };
-		20CB8E2917D12CE700939AB4 /* FMMovie+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CB8E2817D12CE700939AB4 /* FMMovie+Factory.m */; };
 		F059775F35A8431FAB68E17F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBED89D1E3E4178BCD2FB29 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -71,41 +71,41 @@
 		2014AD3117CFF054007EBE2E /* FavMovTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FavMovTests-Info.plist"; sourceTree = "<group>"; };
 		2014AD3317CFF054007EBE2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2014AD3517CFF054007EBE2E /* FavMovTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavMovTests.m; sourceTree = "<group>"; };
-		2014AD3F17CFF0F3007EBE2E /* FMAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMAppViewController.h; sourceTree = "<group>"; };
-		2014AD4017CFF0F3007EBE2E /* FMAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMAppViewController.m; sourceTree = "<group>"; };
-		2014AD4217CFF131007EBE2E /* FMMyFavoriteMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMyFavoriteMovieViewController.h; sourceTree = "<group>"; };
-		2014AD4317CFF131007EBE2E /* FMMyFavoriteMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMyFavoriteMovieViewController.m; sourceTree = "<group>"; };
-		2014AD4517CFF181007EBE2E /* FMMyFavoriteMovieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMyFavoriteMovieView.h; sourceTree = "<group>"; };
-		2014AD4617CFF181007EBE2E /* FMMyFavoriteMovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMyFavoriteMovieView.m; sourceTree = "<group>"; };
+		203C7F0317D1E8B4000C1F70 /* FMAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMAppViewController.h; sourceTree = "<group>"; };
+		203C7F0417D1E8B4000C1F70 /* FMAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMAppViewController.m; sourceTree = "<group>"; };
+		203C7F0717D1E8B4000C1F70 /* FMFriendsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFriendsView.h; sourceTree = "<group>"; };
+		203C7F0817D1E8B4000C1F70 /* FMFriendsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMFriendsView.m; sourceTree = "<group>"; };
+		203C7F0917D1E8B4000C1F70 /* FMFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFriendsViewController.h; sourceTree = "<group>"; };
+		203C7F0A17D1E8B4000C1F70 /* FMFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMFriendsViewController.m; sourceTree = "<group>"; };
+		203C7F0D17D1E8B4000C1F70 /* FMMovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMovieCell.h; sourceTree = "<group>"; };
+		203C7F0E17D1E8B4000C1F70 /* FMMovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMovieCell.m; sourceTree = "<group>"; };
+		203C7F0F17D1E8B4000C1F70 /* FMMoviePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMoviePickerView.h; sourceTree = "<group>"; };
+		203C7F1017D1E8B4000C1F70 /* FMMoviePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMoviePickerView.m; sourceTree = "<group>"; };
+		203C7F1117D1E8B4000C1F70 /* FMMoviePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMoviePickerViewController.h; sourceTree = "<group>"; };
+		203C7F1217D1E8B4000C1F70 /* FMMoviePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMoviePickerViewController.m; sourceTree = "<group>"; };
+		203C7F1417D1E8B4000C1F70 /* FMMyFavoriteMovieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMyFavoriteMovieView.h; sourceTree = "<group>"; };
+		203C7F1517D1E8B4000C1F70 /* FMMyFavoriteMovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMyFavoriteMovieView.m; sourceTree = "<group>"; };
+		203C7F1617D1E8B4000C1F70 /* FMMyFavoriteMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMyFavoriteMovieViewController.h; sourceTree = "<group>"; };
+		203C7F1717D1E8B4000C1F70 /* FMMyFavoriteMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMyFavoriteMovieViewController.m; sourceTree = "<group>"; };
+		203C7F1917D1E8B4000C1F70 /* FMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMView.h; sourceTree = "<group>"; };
+		203C7F1A17D1E8B4000C1F70 /* FMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMView.m; sourceTree = "<group>"; };
+		203C7F1B17D1E8B4000C1F70 /* FMView_Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMView_Protected.h; sourceTree = "<group>"; };
+		203C7F1C17D1E8B4000C1F70 /* UIApplication+FMStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+FMStatusBar.h"; sourceTree = "<group>"; };
+		203C7F1D17D1E8B4000C1F70 /* UIApplication+FMStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+FMStatusBar.m"; sourceTree = "<group>"; };
+		203C7F2817D1E8CD000C1F70 /* FMMovie+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMMovie+Factory.h"; sourceTree = "<group>"; };
+		203C7F2917D1E8CD000C1F70 /* FMMovie+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMMovie+Factory.m"; sourceTree = "<group>"; };
 		2080F81817D10837005432FF /* FMMovieBoxOfficeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMovieBoxOfficeStore.h; sourceTree = "<group>"; };
 		2080F81917D10837005432FF /* FMMovieBoxOfficeStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMovieBoxOfficeStore.m; sourceTree = "<group>"; };
 		20AABD0D17D00375004B7A37 /* UIImage+FMImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FMImages.h"; sourceTree = "<group>"; };
 		20AABD0E17D00375004B7A37 /* UIImage+FMImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FMImages.m"; sourceTree = "<group>"; };
 		20AABD1017D00674004B7A37 /* UIColor+FMColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FMColors.h"; sourceTree = "<group>"; };
 		20AABD1117D00674004B7A37 /* UIColor+FMColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FMColors.m"; sourceTree = "<group>"; };
-		20AABD1317D008CD004B7A37 /* FMMoviePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMoviePickerViewController.h; sourceTree = "<group>"; };
-		20AABD1417D008CD004B7A37 /* FMMoviePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMoviePickerViewController.m; sourceTree = "<group>"; };
-		20AABD1617D00F72004B7A37 /* FMMoviePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMoviePickerView.h; sourceTree = "<group>"; };
-		20AABD1717D00F72004B7A37 /* FMMoviePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMoviePickerView.m; sourceTree = "<group>"; };
-		20AABD1917D00F98004B7A37 /* FMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMView.h; sourceTree = "<group>"; };
-		20AABD1A17D00F98004B7A37 /* FMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMView.m; sourceTree = "<group>"; };
-		20AABD1C17D010B0004B7A37 /* FMView_Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMView_Protected.h; sourceTree = "<group>"; };
-		20AABD1D17D032A4004B7A37 /* FMFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFriendsViewController.h; sourceTree = "<group>"; };
-		20AABD1E17D032A4004B7A37 /* FMFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMFriendsViewController.m; sourceTree = "<group>"; };
-		20AABD2017D033B1004B7A37 /* FMFriendsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFriendsView.h; sourceTree = "<group>"; };
-		20AABD2117D033B1004B7A37 /* FMFriendsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMFriendsView.m; sourceTree = "<group>"; };
-		20AABD2317D034E5004B7A37 /* UIApplication+FMStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+FMStatusBar.h"; sourceTree = "<group>"; };
-		20AABD2417D034E5004B7A37 /* UIApplication+FMStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+FMStatusBar.m"; sourceTree = "<group>"; };
 		20BE3F4117D0FCFA00128C47 /* FMRottenTomatoesHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMRottenTomatoesHTTPClient.h; sourceTree = "<group>"; };
 		20BE3F4217D0FCFA00128C47 /* FMRottenTomatoesHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMRottenTomatoesHTTPClient.m; sourceTree = "<group>"; };
 		20BE3F4417D1001C00128C47 /* FMRottenTomatoesAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMRottenTomatoesAPI.h; sourceTree = "<group>"; };
 		20BE3F4517D1001C00128C47 /* FMRottenTomatoesAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMRottenTomatoesAPI.m; sourceTree = "<group>"; };
-		20CB8E2117D1277900939AB4 /* FMMovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMovieCell.h; sourceTree = "<group>"; };
-		20CB8E2217D1277900939AB4 /* FMMovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMovieCell.m; sourceTree = "<group>"; };
 		20CB8E2417D127EA00939AB4 /* FMMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMovie.h; sourceTree = "<group>"; };
 		20CB8E2517D127EA00939AB4 /* FMMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMovie.m; sourceTree = "<group>"; };
-		20CB8E2717D12CE700939AB4 /* FMMovie+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMMovie+Factory.h"; sourceTree = "<group>"; };
-		20CB8E2817D12CE700939AB4 /* FMMovie+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMMovie+Factory.m"; sourceTree = "<group>"; };
 		3314FC4AD73548C59E204F60 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		BDBED89D1E3E4178BCD2FB29 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -173,6 +173,7 @@
 		2014AD1217CFF053007EBE2E /* FavMov */ = {
 			isa = PBXGroup;
 			children = (
+				203C7F0217D1E8B4000C1F70 /* UI */,
 				2080F81717D10824005432FF /* Model */,
 				20BE3F4017D0FCD900128C47 /* Networking */,
 				20AABD0C17D00364004B7A37 /* Style */,
@@ -181,29 +182,6 @@
 				2014AD2117CFF053007EBE2E /* Images.xcassets */,
 				2014AD1E17CFF053007EBE2E /* FavMov.xcdatamodeld */,
 				2014AD1317CFF053007EBE2E /* Supporting Files */,
-				2014AD3F17CFF0F3007EBE2E /* FMAppViewController.h */,
-				2014AD4017CFF0F3007EBE2E /* FMAppViewController.m */,
-				2014AD4217CFF131007EBE2E /* FMMyFavoriteMovieViewController.h */,
-				2014AD4317CFF131007EBE2E /* FMMyFavoriteMovieViewController.m */,
-				2014AD4517CFF181007EBE2E /* FMMyFavoriteMovieView.h */,
-				2014AD4617CFF181007EBE2E /* FMMyFavoriteMovieView.m */,
-				20AABD1317D008CD004B7A37 /* FMMoviePickerViewController.h */,
-				20AABD1417D008CD004B7A37 /* FMMoviePickerViewController.m */,
-				20AABD1617D00F72004B7A37 /* FMMoviePickerView.h */,
-				20AABD1717D00F72004B7A37 /* FMMoviePickerView.m */,
-				20AABD1917D00F98004B7A37 /* FMView.h */,
-				20AABD1A17D00F98004B7A37 /* FMView.m */,
-				20AABD1C17D010B0004B7A37 /* FMView_Protected.h */,
-				20AABD1D17D032A4004B7A37 /* FMFriendsViewController.h */,
-				20AABD1E17D032A4004B7A37 /* FMFriendsViewController.m */,
-				20AABD2017D033B1004B7A37 /* FMFriendsView.h */,
-				20AABD2117D033B1004B7A37 /* FMFriendsView.m */,
-				20AABD2317D034E5004B7A37 /* UIApplication+FMStatusBar.h */,
-				20AABD2417D034E5004B7A37 /* UIApplication+FMStatusBar.m */,
-				20CB8E2117D1277900939AB4 /* FMMovieCell.h */,
-				20CB8E2217D1277900939AB4 /* FMMovieCell.m */,
-				20CB8E2717D12CE700939AB4 /* FMMovie+Factory.h */,
-				20CB8E2817D12CE700939AB4 /* FMMovie+Factory.m */,
 			);
 			path = FavMov;
 			sourceTree = "<group>";
@@ -237,9 +215,87 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		203C7F0217D1E8B4000C1F70 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				203C7F0317D1E8B4000C1F70 /* FMAppViewController.h */,
+				203C7F0417D1E8B4000C1F70 /* FMAppViewController.m */,
+				203C7F0517D1E8B4000C1F70 /* Screens */,
+				203C7F1817D1E8B4000C1F70 /* Shared */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		203C7F0517D1E8B4000C1F70 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				203C7F0617D1E8B4000C1F70 /* Friends */,
+				203C7F0B17D1E8B4000C1F70 /* IdentityProviderPicker */,
+				203C7F0C17D1E8B4000C1F70 /* MoviePicker */,
+				203C7F1317D1E8B4000C1F70 /* MyFavorite */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		203C7F0617D1E8B4000C1F70 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				203C7F0717D1E8B4000C1F70 /* FMFriendsView.h */,
+				203C7F0817D1E8B4000C1F70 /* FMFriendsView.m */,
+				203C7F0917D1E8B4000C1F70 /* FMFriendsViewController.h */,
+				203C7F0A17D1E8B4000C1F70 /* FMFriendsViewController.m */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		203C7F0B17D1E8B4000C1F70 /* IdentityProviderPicker */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IdentityProviderPicker;
+			sourceTree = "<group>";
+		};
+		203C7F0C17D1E8B4000C1F70 /* MoviePicker */ = {
+			isa = PBXGroup;
+			children = (
+				203C7F0D17D1E8B4000C1F70 /* FMMovieCell.h */,
+				203C7F0E17D1E8B4000C1F70 /* FMMovieCell.m */,
+				203C7F0F17D1E8B4000C1F70 /* FMMoviePickerView.h */,
+				203C7F1017D1E8B4000C1F70 /* FMMoviePickerView.m */,
+				203C7F1117D1E8B4000C1F70 /* FMMoviePickerViewController.h */,
+				203C7F1217D1E8B4000C1F70 /* FMMoviePickerViewController.m */,
+			);
+			path = MoviePicker;
+			sourceTree = "<group>";
+		};
+		203C7F1317D1E8B4000C1F70 /* MyFavorite */ = {
+			isa = PBXGroup;
+			children = (
+				203C7F1417D1E8B4000C1F70 /* FMMyFavoriteMovieView.h */,
+				203C7F1517D1E8B4000C1F70 /* FMMyFavoriteMovieView.m */,
+				203C7F1617D1E8B4000C1F70 /* FMMyFavoriteMovieViewController.h */,
+				203C7F1717D1E8B4000C1F70 /* FMMyFavoriteMovieViewController.m */,
+			);
+			path = MyFavorite;
+			sourceTree = "<group>";
+		};
+		203C7F1817D1E8B4000C1F70 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				203C7F1917D1E8B4000C1F70 /* FMView.h */,
+				203C7F1A17D1E8B4000C1F70 /* FMView.m */,
+				203C7F1B17D1E8B4000C1F70 /* FMView_Protected.h */,
+				203C7F1C17D1E8B4000C1F70 /* UIApplication+FMStatusBar.h */,
+				203C7F1D17D1E8B4000C1F70 /* UIApplication+FMStatusBar.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		2080F81717D10824005432FF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				203C7F2817D1E8CD000C1F70 /* FMMovie+Factory.h */,
+				203C7F2917D1E8CD000C1F70 /* FMMovie+Factory.m */,
 				2080F81817D10837005432FF /* FMMovieBoxOfficeStore.h */,
 				2080F81917D10837005432FF /* FMMovieBoxOfficeStore.m */,
 				20CB8E2417D127EA00939AB4 /* FMMovie.h */,
@@ -401,25 +457,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203C7F2517D1E8B4000C1F70 /* FMMyFavoriteMovieViewController.m in Sources */,
 				2014AD1917CFF053007EBE2E /* main.m in Sources */,
-				20CB8E2317D1277900939AB4 /* FMMovieCell.m in Sources */,
-				20AABD2517D034E5004B7A37 /* UIApplication+FMStatusBar.m in Sources */,
-				20AABD2217D033B1004B7A37 /* FMFriendsView.m in Sources */,
+				203C7F2717D1E8B4000C1F70 /* UIApplication+FMStatusBar.m in Sources */,
+				203C7F1E17D1E8B4000C1F70 /* FMAppViewController.m in Sources */,
+				203C7F2217D1E8B4000C1F70 /* FMMoviePickerView.m in Sources */,
 				2014AD1D17CFF053007EBE2E /* FMAppDelegate.m in Sources */,
+				203C7F2A17D1E8CD000C1F70 /* FMMovie+Factory.m in Sources */,
 				20AABD0F17D00375004B7A37 /* UIImage+FMImages.m in Sources */,
-				20CB8E2917D12CE700939AB4 /* FMMovie+Factory.m in Sources */,
+				203C7F2317D1E8B4000C1F70 /* FMMoviePickerViewController.m in Sources */,
+				203C7F2417D1E8B4000C1F70 /* FMMyFavoriteMovieView.m in Sources */,
 				20AABD1217D00674004B7A37 /* UIColor+FMColors.m in Sources */,
+				203C7F2017D1E8B4000C1F70 /* FMFriendsViewController.m in Sources */,
+				203C7F2117D1E8B4000C1F70 /* FMMovieCell.m in Sources */,
+				203C7F2617D1E8B4000C1F70 /* FMView.m in Sources */,
 				20CB8E2617D127EA00939AB4 /* FMMovie.m in Sources */,
 				20BE3F4617D1001C00128C47 /* FMRottenTomatoesAPI.m in Sources */,
-				20AABD1817D00F72004B7A37 /* FMMoviePickerView.m in Sources */,
-				2014AD4717CFF181007EBE2E /* FMMyFavoriteMovieView.m in Sources */,
-				20AABD1B17D00F98004B7A37 /* FMView.m in Sources */,
-				20AABD1517D008CD004B7A37 /* FMMoviePickerViewController.m in Sources */,
-				20AABD1F17D032A4004B7A37 /* FMFriendsViewController.m in Sources */,
 				2014AD2017CFF053007EBE2E /* FavMov.xcdatamodeld in Sources */,
-				2014AD4117CFF0F3007EBE2E /* FMAppViewController.m in Sources */,
-				2014AD4417CFF131007EBE2E /* FMMyFavoriteMovieViewController.m in Sources */,
 				2080F81A17D10837005432FF /* FMMovieBoxOfficeStore.m in Sources */,
+				203C7F1F17D1E8B4000C1F70 /* FMFriendsView.m in Sources */,
 				20BE3F4317D0FCFA00128C47 /* FMRottenTomatoesHTTPClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
