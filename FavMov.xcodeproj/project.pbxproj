@@ -33,6 +33,17 @@
 		203C7F2617D1E8B4000C1F70 /* FMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F1A17D1E8B4000C1F70 /* FMView.m */; };
 		203C7F2717D1E8B4000C1F70 /* UIApplication+FMStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F1D17D1E8B4000C1F70 /* UIApplication+FMStatusBar.m */; };
 		203C7F2A17D1E8CD000C1F70 /* FMMovie+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F2917D1E8CD000C1F70 /* FMMovie+Factory.m */; };
+		203C7F3717D1FD06000C1F70 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F3617D1FD06000C1F70 /* UIColor+HexColor.m */; };
+		203C7F4517D27618000C1F70 /* FMIdentityProviderPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F4117D27618000C1F70 /* FMIdentityProviderPickerView.m */; };
+		203C7F4617D27618000C1F70 /* FMIdentityProviderPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F4317D27618000C1F70 /* FMIdentityProviderPickerViewController.m */; };
+		203C7F4A17D27655000C1F70 /* FMUserRetriever.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F4917D27655000C1F70 /* FMUserRetriever.m */; };
+		203C7F5A17D3E98E000C1F70 /* FMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F5917D3E98E000C1F70 /* FMUser.m */; };
+		203C7F6617D406D8000C1F70 /* FMFacebookAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F5F17D406D8000C1F70 /* FMFacebookAuthenticator.m */; };
+		203C7F6717D406D8000C1F70 /* FMFacebookUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F6117D406D8000C1F70 /* FMFacebookUser.m */; };
+		203C7F6817D406D8000C1F70 /* FMIdentityProviderFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F6317D406D8000C1F70 /* FMIdentityProviderFacebook.m */; };
+		203C7F6917D406D8000C1F70 /* FMIdentityProviderStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F6517D406D8000C1F70 /* FMIdentityProviderStore.m */; };
+		203C7F6F17D41417000C1F70 /* FMTwitterAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F6E17D41417000C1F70 /* FMTwitterAuthenticator.m */; };
+		203C7F7217D41432000C1F70 /* FMIdentityProviderTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C7F7117D41432000C1F70 /* FMIdentityProviderTwitter.m */; };
 		2080F81A17D10837005432FF /* FMMovieBoxOfficeStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2080F81917D10837005432FF /* FMMovieBoxOfficeStore.m */; };
 		20AABD0F17D00375004B7A37 /* UIImage+FMImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AABD0E17D00375004B7A37 /* UIImage+FMImages.m */; };
 		20AABD1217D00674004B7A37 /* UIColor+FMColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AABD1117D00674004B7A37 /* UIColor+FMColors.m */; };
@@ -94,6 +105,31 @@
 		203C7F1D17D1E8B4000C1F70 /* UIApplication+FMStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+FMStatusBar.m"; sourceTree = "<group>"; };
 		203C7F2817D1E8CD000C1F70 /* FMMovie+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMMovie+Factory.h"; sourceTree = "<group>"; };
 		203C7F2917D1E8CD000C1F70 /* FMMovie+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMMovie+Factory.m"; sourceTree = "<group>"; };
+		203C7F3517D1FD06000C1F70 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		203C7F3617D1FD06000C1F70 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		203C7F4017D27618000C1F70 /* FMIdentityProviderPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMIdentityProviderPickerView.h; sourceTree = "<group>"; };
+		203C7F4117D27618000C1F70 /* FMIdentityProviderPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMIdentityProviderPickerView.m; sourceTree = "<group>"; };
+		203C7F4217D27618000C1F70 /* FMIdentityProviderPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMIdentityProviderPickerViewController.h; sourceTree = "<group>"; };
+		203C7F4317D27618000C1F70 /* FMIdentityProviderPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMIdentityProviderPickerViewController.m; sourceTree = "<group>"; };
+		203C7F4717D2762B000C1F70 /* FMUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMUser.h; sourceTree = "<group>"; };
+		203C7F4817D27655000C1F70 /* FMUserRetriever.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMUserRetriever.h; sourceTree = "<group>"; };
+		203C7F4917D27655000C1F70 /* FMUserRetriever.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMUserRetriever.m; sourceTree = "<group>"; };
+		203C7F5917D3E98E000C1F70 /* FMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMUser.m; sourceTree = "<group>"; };
+		203C7F5B17D3EB96000C1F70 /* FMUser_Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMUser_Protected.h; sourceTree = "<group>"; };
+		203C7F5E17D406D8000C1F70 /* FMFacebookAuthenticator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFacebookAuthenticator.h; sourceTree = "<group>"; };
+		203C7F5F17D406D8000C1F70 /* FMFacebookAuthenticator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMFacebookAuthenticator.m; sourceTree = "<group>"; };
+		203C7F6017D406D8000C1F70 /* FMFacebookUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFacebookUser.h; sourceTree = "<group>"; };
+		203C7F6117D406D8000C1F70 /* FMFacebookUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMFacebookUser.m; sourceTree = "<group>"; };
+		203C7F6217D406D8000C1F70 /* FMIdentityProviderFacebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMIdentityProviderFacebook.h; sourceTree = "<group>"; };
+		203C7F6317D406D8000C1F70 /* FMIdentityProviderFacebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMIdentityProviderFacebook.m; sourceTree = "<group>"; };
+		203C7F6417D406D8000C1F70 /* FMIdentityProviderStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMIdentityProviderStore.h; sourceTree = "<group>"; };
+		203C7F6517D406D8000C1F70 /* FMIdentityProviderStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMIdentityProviderStore.m; sourceTree = "<group>"; };
+		203C7F6A17D406E3000C1F70 /* FMAuthenticator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMAuthenticator.h; sourceTree = "<group>"; };
+		203C7F6B17D406E3000C1F70 /* FMIdentityProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMIdentityProvider.h; sourceTree = "<group>"; };
+		203C7F6D17D41417000C1F70 /* FMTwitterAuthenticator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTwitterAuthenticator.h; sourceTree = "<group>"; };
+		203C7F6E17D41417000C1F70 /* FMTwitterAuthenticator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTwitterAuthenticator.m; sourceTree = "<group>"; };
+		203C7F7017D41432000C1F70 /* FMIdentityProviderTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMIdentityProviderTwitter.h; sourceTree = "<group>"; };
+		203C7F7117D41432000C1F70 /* FMIdentityProviderTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMIdentityProviderTwitter.m; sourceTree = "<group>"; };
 		2080F81817D10837005432FF /* FMMovieBoxOfficeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMovieBoxOfficeStore.h; sourceTree = "<group>"; };
 		2080F81917D10837005432FF /* FMMovieBoxOfficeStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMovieBoxOfficeStore.m; sourceTree = "<group>"; };
 		20AABD0D17D00375004B7A37 /* UIImage+FMImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FMImages.h"; sourceTree = "<group>"; };
@@ -173,6 +209,7 @@
 		2014AD1217CFF053007EBE2E /* FavMov */ = {
 			isa = PBXGroup;
 			children = (
+				203C7F3917D27566000C1F70 /* Auth */,
 				203C7F0217D1E8B4000C1F70 /* UI */,
 				2080F81717D10824005432FF /* Model */,
 				20BE3F4017D0FCD900128C47 /* Networking */,
@@ -230,7 +267,6 @@
 			isa = PBXGroup;
 			children = (
 				203C7F0617D1E8B4000C1F70 /* Friends */,
-				203C7F0B17D1E8B4000C1F70 /* IdentityProviderPicker */,
 				203C7F0C17D1E8B4000C1F70 /* MoviePicker */,
 				203C7F1317D1E8B4000C1F70 /* MyFavorite */,
 			);
@@ -246,13 +282,6 @@
 				203C7F0A17D1E8B4000C1F70 /* FMFriendsViewController.m */,
 			);
 			path = Friends;
-			sourceTree = "<group>";
-		};
-		203C7F0B17D1E8B4000C1F70 /* IdentityProviderPicker */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = IdentityProviderPicker;
 			sourceTree = "<group>";
 		};
 		203C7F0C17D1E8B4000C1F70 /* MoviePicker */ = {
@@ -287,8 +316,88 @@
 				203C7F1B17D1E8B4000C1F70 /* FMView_Protected.h */,
 				203C7F1C17D1E8B4000C1F70 /* UIApplication+FMStatusBar.h */,
 				203C7F1D17D1E8B4000C1F70 /* UIApplication+FMStatusBar.m */,
+				203C7F3517D1FD06000C1F70 /* UIColor+HexColor.h */,
+				203C7F3617D1FD06000C1F70 /* UIColor+HexColor.m */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		203C7F3917D27566000C1F70 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				203C7F5C17D406D8000C1F70 /* IdentityProviders */,
+				203C7F3B17D27618000C1F70 /* Model */,
+				203C7F3C17D27618000C1F70 /* UI */,
+				203C7F4817D27655000C1F70 /* FMUserRetriever.h */,
+				203C7F4917D27655000C1F70 /* FMUserRetriever.m */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		203C7F3B17D27618000C1F70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				203C7F6A17D406E3000C1F70 /* FMAuthenticator.h */,
+				203C7F6B17D406E3000C1F70 /* FMIdentityProvider.h */,
+				203C7F4717D2762B000C1F70 /* FMUser.h */,
+				203C7F5917D3E98E000C1F70 /* FMUser.m */,
+				203C7F5B17D3EB96000C1F70 /* FMUser_Protected.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		203C7F3C17D27618000C1F70 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				203C7F3F17D27618000C1F70 /* IdentityProviderPicker */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		203C7F3F17D27618000C1F70 /* IdentityProviderPicker */ = {
+			isa = PBXGroup;
+			children = (
+				203C7F4017D27618000C1F70 /* FMIdentityProviderPickerView.h */,
+				203C7F4117D27618000C1F70 /* FMIdentityProviderPickerView.m */,
+				203C7F4217D27618000C1F70 /* FMIdentityProviderPickerViewController.h */,
+				203C7F4317D27618000C1F70 /* FMIdentityProviderPickerViewController.m */,
+			);
+			path = IdentityProviderPicker;
+			sourceTree = "<group>";
+		};
+		203C7F5C17D406D8000C1F70 /* IdentityProviders */ = {
+			isa = PBXGroup;
+			children = (
+				203C7F6C17D4140E000C1F70 /* Twitter */,
+				203C7F5D17D406D8000C1F70 /* Facebook */,
+				203C7F6417D406D8000C1F70 /* FMIdentityProviderStore.h */,
+				203C7F6517D406D8000C1F70 /* FMIdentityProviderStore.m */,
+			);
+			path = IdentityProviders;
+			sourceTree = "<group>";
+		};
+		203C7F5D17D406D8000C1F70 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				203C7F5E17D406D8000C1F70 /* FMFacebookAuthenticator.h */,
+				203C7F5F17D406D8000C1F70 /* FMFacebookAuthenticator.m */,
+				203C7F6017D406D8000C1F70 /* FMFacebookUser.h */,
+				203C7F6117D406D8000C1F70 /* FMFacebookUser.m */,
+				203C7F6217D406D8000C1F70 /* FMIdentityProviderFacebook.h */,
+				203C7F6317D406D8000C1F70 /* FMIdentityProviderFacebook.m */,
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
+		203C7F6C17D4140E000C1F70 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				203C7F6D17D41417000C1F70 /* FMTwitterAuthenticator.h */,
+				203C7F6E17D41417000C1F70 /* FMTwitterAuthenticator.m */,
+				203C7F7017D41432000C1F70 /* FMIdentityProviderTwitter.h */,
+				203C7F7117D41432000C1F70 /* FMIdentityProviderTwitter.m */,
+			);
+			path = Twitter;
 			sourceTree = "<group>";
 		};
 		2080F81717D10824005432FF /* Model */ = {
@@ -457,21 +566,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203C7F4617D27618000C1F70 /* FMIdentityProviderPickerViewController.m in Sources */,
 				203C7F2517D1E8B4000C1F70 /* FMMyFavoriteMovieViewController.m in Sources */,
 				2014AD1917CFF053007EBE2E /* main.m in Sources */,
 				203C7F2717D1E8B4000C1F70 /* UIApplication+FMStatusBar.m in Sources */,
 				203C7F1E17D1E8B4000C1F70 /* FMAppViewController.m in Sources */,
+				203C7F5A17D3E98E000C1F70 /* FMUser.m in Sources */,
 				203C7F2217D1E8B4000C1F70 /* FMMoviePickerView.m in Sources */,
 				2014AD1D17CFF053007EBE2E /* FMAppDelegate.m in Sources */,
+				203C7F6F17D41417000C1F70 /* FMTwitterAuthenticator.m in Sources */,
+				203C7F6717D406D8000C1F70 /* FMFacebookUser.m in Sources */,
 				203C7F2A17D1E8CD000C1F70 /* FMMovie+Factory.m in Sources */,
 				20AABD0F17D00375004B7A37 /* UIImage+FMImages.m in Sources */,
 				203C7F2317D1E8B4000C1F70 /* FMMoviePickerViewController.m in Sources */,
 				203C7F2417D1E8B4000C1F70 /* FMMyFavoriteMovieView.m in Sources */,
+				203C7F6817D406D8000C1F70 /* FMIdentityProviderFacebook.m in Sources */,
 				20AABD1217D00674004B7A37 /* UIColor+FMColors.m in Sources */,
 				203C7F2017D1E8B4000C1F70 /* FMFriendsViewController.m in Sources */,
+				203C7F4517D27618000C1F70 /* FMIdentityProviderPickerView.m in Sources */,
+				203C7F7217D41432000C1F70 /* FMIdentityProviderTwitter.m in Sources */,
 				203C7F2117D1E8B4000C1F70 /* FMMovieCell.m in Sources */,
 				203C7F2617D1E8B4000C1F70 /* FMView.m in Sources */,
+				203C7F6917D406D8000C1F70 /* FMIdentityProviderStore.m in Sources */,
+				203C7F3717D1FD06000C1F70 /* UIColor+HexColor.m in Sources */,
+				203C7F4A17D27655000C1F70 /* FMUserRetriever.m in Sources */,
 				20CB8E2617D127EA00939AB4 /* FMMovie.m in Sources */,
+				203C7F6617D406D8000C1F70 /* FMFacebookAuthenticator.m in Sources */,
 				20BE3F4617D1001C00128C47 /* FMRottenTomatoesAPI.m in Sources */,
 				2014AD2017CFF053007EBE2E /* FavMov.xcdatamodeld in Sources */,
 				2080F81A17D10837005432FF /* FMMovieBoxOfficeStore.m in Sources */,
@@ -595,6 +715,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FavMov/FavMov-Prefix.pch";
 				INFOPLIST_FILE = "FavMov/FavMov-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -609,6 +730,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FavMov/FavMov-Prefix.pch";
 				INFOPLIST_FILE = "FavMov/FavMov-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

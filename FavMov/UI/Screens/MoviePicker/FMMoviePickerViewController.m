@@ -48,7 +48,7 @@
 }
 
 - (void)dismissMyself {
-  self.dismissalBlock ? self.dismissalBlock(self.selectedMovie) : NULL;
+  self.completionBlock ? self.completionBlock(self.selectedMovie) : NULL;
 }
 
 #pragma mark - Movie Collection View Datasource
@@ -67,7 +67,7 @@
   FMMovieCell *cell =
       (FMMovieCell *)[collectionView dequeueReusableCellWithReuseIdentifier:[self movieCellReuseID]
                                                                forIndexPath:indexPath];
-  cell.backgroundColor = [UIColor fm_orange];
+  cell.backgroundColor = [UIColor fm_muskyGrey];
   // TODO: Clean this up, no need to always creat movie instances from dictionary.
   cell.movie = [FMMovie movieFromDictionary:[self.movieStore.movies objectAtIndex:indexPath.item]];
   UIView *selectedBackgroundView = [UIView new];

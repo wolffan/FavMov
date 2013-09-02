@@ -35,6 +35,7 @@ UICollectionViewFlowLayout * newMovieFlowLayout() {
 UICollectionView * newMovieCollectionView() {
   UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero
                                                         collectionViewLayout:newMovieFlowLayout()];
+  collectionView.backgroundColor = [UIColor fm_muskyGrey];
   return collectionView;
 }
 

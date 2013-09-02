@@ -1,5 +1,7 @@
 #import "UIColor+FMColors.h"
 
+#import "UIColor+HexColor.h"
+
 @implementation UIColor (FMColors)
 
 + (UIColor *)fm_pink {
@@ -43,6 +45,18 @@
                          green:43.0/255.0f
                           blue:43.0f/255.0f
                          alpha:1.0f];
+}
+
++ (UIColor *)fm_redStrong {
+  return [UIColor fm_colorWithRGB:0xE2422D];
+}
+
++ (UIColor *)fm_facebookColor {
+  return [UIColor fm_colorWithRGB:0x3663A1];
+}
+
++ (UIColor *)fm_twitterColor {
+  return [UIColor fm_colorWithRGB:0x44B3E9];
 }
 
 @end

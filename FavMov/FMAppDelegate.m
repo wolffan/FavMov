@@ -1,5 +1,7 @@
 #import "FMAppDelegate.h"
 
+#import <FacebookSDK/FacebookSDK.h>
+
 #import "UIColor+FMColors.h"
 
 #import "FMAppViewController.h"
@@ -15,7 +17,7 @@
     didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   self.window.backgroundColor = [UIColor blackColor];
-  self.window.tintColor = [UIColor fm_pink];
+  self.window.tintColor = [UIColor fm_redStrong];
   self.window.rootViewController = [FMAppViewController new];
   [self.window makeKeyAndVisible];
   return YES;
@@ -24,6 +26,13 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
   // Saves changes in the application's managed object context before the application terminates.
   [self saveContext];
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+  return [FBSession.activeSession handleOpenURL:url];
 }
 
 - (void)saveContext {

@@ -2,8 +2,8 @@
 
 @class FMMovie;
 
-typedef void(^FMMoviePickerDismissalBlock)(FMMovie *movie);
+typedef void(^FMMoviePickerCompletionBlock)(FMMovie *movie);
 
 @interface FMMoviePickerViewController : UIViewController
-@property(nonatomic, strong) FMMoviePickerDismissalBlock dismissalBlock;
+@property(nonatomic, copy) FMMoviePickerCompletionBlock completionBlock;
 @end
